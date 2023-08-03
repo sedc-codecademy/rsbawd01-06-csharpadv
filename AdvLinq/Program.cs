@@ -87,6 +87,8 @@ namespace AdvLinq
 
             foreach (Person person in fiveOldestOnes)
                 Console.WriteLine($"{person.FirstName} {person.LastName} - {person.Age}");
+
+            // Excercise part
         }
     }
 }
