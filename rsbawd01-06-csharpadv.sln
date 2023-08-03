@@ -31,41 +31,43 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class14", "Class14", "{BFB6
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class15", "Class15", "{B7DE7B85-3E26-472B-9CF7-D7799BFB31DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1Exercise1", "C1Exercise1\C1Exercise1.csproj", "{EDC10B9D-80F3-42E2-BE6D-A01553C341CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C1Exercise1", "C1Exercise1\C1Exercise1.csproj", "{EDC10B9D-80F3-42E2-BE6D-A01553C341CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1Exercise2", "C1Exercise2\C1Exercise2.csproj", "{912BD47B-7A90-4BC2-93D7-75BA5899B175}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C1Exercise2", "C1Exercise2\C1Exercise2.csproj", "{912BD47B-7A90-4BC2-93D7-75BA5899B175}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1Exercise3", "C1Exercise3\C1Exercise3.csproj", "{EE6EA2BB-EBF3-43EE-82CB-B64122A37F0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C1Exercise3", "C1Exercise3\C1Exercise3.csproj", "{EE6EA2BB-EBF3-43EE-82CB-B64122A37F0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class09", "Class09", "{16EBE274-155F-4955-BC7C-A7541FF52887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C1Exercise4", "C1Exercise4\C1Exercise4.csproj", "{5423E721-449B-43D8-88C4-BD7DA10F90D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C1Exercise4", "C1Exercise4\C1Exercise4.csproj", "{5423E721-449B-43D8-88C4-BD7DA10F90D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{F4701409-BA7F-4D0A-BBE6-95FE2316A364}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractClasses", "AbstractClasses\AbstractClasses.csproj", "{F4701409-BA7F-4D0A-BBE6-95FE2316A364}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsAppExample", "NewsAppExample\NewsAppExample.csproj", "{AAEB29B4-4EB4-4240-9E0B-EFF807EA1808}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsAppExample", "NewsAppExample\NewsAppExample.csproj", "{AAEB29B4-4EB4-4240-9E0B-EFF807EA1808}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractionExercise", "AbstractionExercise\AbstractionExercise.csproj", "{6B95FFC3-41E1-42B5-B970-014C31380A83}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractionExercise", "AbstractionExercise\AbstractionExercise.csproj", "{6B95FFC3-41E1-42B5-B970-014C31380A83}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClasses", "StaticClasses\StaticClasses.csproj", "{50F6217B-9C0C-4D14-A975-C12A2ABCCB4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StaticClasses", "StaticClasses\StaticClasses.csproj", "{50F6217B-9C0C-4D14-A975-C12A2ABCCB4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismExamples", "PolymorphismExamples\PolymorphismExamples.csproj", "{AB59E3BA-6A34-4989-A7EC-B4A4A7A7CAF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PolymorphismExamples", "PolymorphismExamples\PolymorphismExamples.csproj", "{AB59E3BA-6A34-4989-A7EC-B4A4A7A7CAF3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C3E1", "C3E1\C3E1.csproj", "{25A9C33F-70BB-4024-BCE0-A13B81C7E7B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C3E1", "C3E1\C3E1.csproj", "{25A9C33F-70BB-4024-BCE0-A13B81C7E7B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsExamples", "GenericsExamples\GenericsExamples.csproj", "{430C8C62-7964-419F-A319-D6C30E64F2BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsExamples", "GenericsExamples\GenericsExamples.csproj", "{430C8C62-7964-419F-A319-D6C30E64F2BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{DFB4B81A-8D0B-4D01-8159-B2035C0ED089}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExtensionMethods", "ExtensionMethods\ExtensionMethods.csproj", "{DFB4B81A-8D0B-4D01-8159-B2035C0ED089}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C4E1", "C4E1\C4E1.csproj", "{02EE94B2-11D9-4FA8-AF76-FDC68E7E5763}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C4E1", "C4E1\C4E1.csproj", "{02EE94B2-11D9-4FA8-AF76-FDC68E7E5763}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettersAndSetters", "GettersAndSetters\GettersAndSetters.csproj", "{D67DAEB8-EC2D-4807-8AD1-E8C1B4FF4D2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GettersAndSetters", "GettersAndSetters\GettersAndSetters.csproj", "{D67DAEB8-EC2D-4807-8AD1-E8C1B4FF4D2F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Projects", "_Projects", "{C3093671-E873-457F-B635-C3A9903110F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiManager", "TaxiManager\TaxiManager.csproj", "{15442AA3-EE13-44B8-A4F0-A6249E641178}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiManager", "TaxiManager\TaxiManager.csproj", "{15442AA3-EE13-44B8-A4F0-A6249E641178}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiManager.Domain", "TaxiManager.Domain\TaxiManager.Domain.csproj", "{D262CED9-DD84-436C-AA47-22D500B759B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TaxiManager.Domain", "TaxiManager.Domain\TaxiManager.Domain.csproj", "{D262CED9-DD84-436C-AA47-22D500B759B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaxiManager.DataAccess", "TaxiManager.DataAccess\TaxiManager.DataAccess.csproj", "{9A08F01C-55FB-4981-A919-D7EBC7F9F815}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -137,6 +139,10 @@ Global
 		{D262CED9-DD84-436C-AA47-22D500B759B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D262CED9-DD84-436C-AA47-22D500B759B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D262CED9-DD84-436C-AA47-22D500B759B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A08F01C-55FB-4981-A919-D7EBC7F9F815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A08F01C-55FB-4981-A919-D7EBC7F9F815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A08F01C-55FB-4981-A919-D7EBC7F9F815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A08F01C-55FB-4981-A919-D7EBC7F9F815}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -158,6 +164,7 @@ Global
 		{D67DAEB8-EC2D-4807-8AD1-E8C1B4FF4D2F} = {8E9C69C4-14BE-45D1-AA1C-7D4ADF8A9CAC}
 		{15442AA3-EE13-44B8-A4F0-A6249E641178} = {C3093671-E873-457F-B635-C3A9903110F4}
 		{D262CED9-DD84-436C-AA47-22D500B759B2} = {C3093671-E873-457F-B635-C3A9903110F4}
+		{9A08F01C-55FB-4981-A919-D7EBC7F9F815} = {C3093671-E873-457F-B635-C3A9903110F4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {242CE588-5041-4BE2-9E6C-06601B602235}
