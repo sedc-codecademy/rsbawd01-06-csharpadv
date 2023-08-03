@@ -13,7 +13,7 @@ namespace NewsAppExample.Services
         public List<NewsArticle> GetNewsArticles()
         {
             // Imagine this is a real data from server
-            
+
             List<NewsArticle> articles = new List<NewsArticle>();
 
             articles.Add(new NewsArticle() { Id = 1, Title = "Prva vijest", Subtitle = "Prva vijest subtitle" });
@@ -24,5 +24,6 @@ namespace NewsAppExample.Services
 
             return articles;
         }
+
     }
 }
