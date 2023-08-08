@@ -16,7 +16,7 @@ namespace AdvLinq
                 new Person { FirstName = "John", LastName = "Smith", Age = 35, Country = "USA", Hobbies = new List<string> { "Reading", "Cooking", "Hiking" } },
                 new Person { FirstName = "Jane", LastName = "Doe", Age = 32, Country = "Canada", Hobbies = new List<string> { "Reading", "Gaming" } },
                 new Person { FirstName = "Michael", LastName = "Brown", Age = 24, Country = "UK", Hobbies = new List<string> { "Swimming", "Hiking" } },
-                new Person { FirstName = "Daniel", LastName = "Wilson", Age = 30, Country = "USA", Hobbies = new List<string> { "Gardening" } },
+                new Person { FirstName = "Daniel", LastName = "Wilson", Age = 30, Country = "USA", Hobbies = new List<string> { "Gardening", "Singing" } },
                 new Person { FirstName = "Emma", LastName = "Johnson", Age = 29, Country = "Canada", Hobbies = new List<string> { "Yoga", "Cooking" } },
                 new Person { FirstName = "Olivia", LastName = "Smith", Age = 23, Country = "USA", Hobbies = new List<string> { "Reading", "Gardening" } },
                 new Person { FirstName = "James", LastName = "Davis", Age = 26, Country = "Canada", Hobbies = new List<string> { "Traveling" } },
@@ -88,7 +88,34 @@ namespace AdvLinq
             foreach (Person person in fiveOldestOnes)
                 Console.WriteLine($"{person.FirstName} {person.LastName} - {person.Age}");
 
-            // Excercise part
+
+            //Find all persons with both "Singing" and "Dancing" as hobbies.​
+            var personsWithSingingDancing = personList
+                .Where(p => p.Hobbies.Contains("Singing") || p.Hobbies.Contains("Dancing"))
+                .ToList();
+
+            foreach (Person item in personsWithSingingDancing)
+                Console.WriteLine(item.FirstName);
+
+            //Find the persons with the longest first name and last name.​
+            Person longestFirstName = personList.OrderByDescending(p => p.FirstName.Length).FirstOrDefault();
+            Person longestLastName = personList.OrderByDescending(p => p.LastName.Length).FirstOrDefault();
+
+            Console.WriteLine($"The Person with longest first name is {longestFirstName.FirstName}");
+            Console.WriteLine($"The Person with longest last name is {longestLastName.LastName}");
+
+
+            //Select the full names(FirstName +LastName) of all persons.​
+
+            List<string> fullNames = personList
+                .Select(p => p.FirstName + " " + p.LastName)
+                .ToList();
+
+            Console.WriteLine("Full names: ");
+            foreach (string fullName in fullNames)
+            {
+                Console.WriteLine(fullName);
+            }
         }
     }
 }
