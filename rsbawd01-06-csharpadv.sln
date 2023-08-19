@@ -85,6 +85,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C11E1", "C11E1\C11E1.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemoryManagament", "MemoryManagament\MemoryManagament.csproj", "{AF0740B9-BC77-468C-B51C-709DE10DF291}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibraryManagamentApp", "LibraryManagamentApp\LibraryManagamentApp.csproj", "{E26FDD82-CB8A-4873-B27B-BCA4D56BE993}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -195,6 +197,10 @@ Global
 		{AF0740B9-BC77-468C-B51C-709DE10DF291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF0740B9-BC77-468C-B51C-709DE10DF291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF0740B9-BC77-468C-B51C-709DE10DF291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26FDD82-CB8A-4873-B27B-BCA4D56BE993}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26FDD82-CB8A-4873-B27B-BCA4D56BE993}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26FDD82-CB8A-4873-B27B-BCA4D56BE993}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26FDD82-CB8A-4873-B27B-BCA4D56BE993}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -226,6 +232,7 @@ Global
 		{CAF72A5E-4440-40DE-A4A5-CF1256180848} = {2263F748-025E-412E-8165-CE84190F38B2}
 		{66ADC761-886F-48E0-98C0-3F89F241E7AF} = {2263F748-025E-412E-8165-CE84190F38B2}
 		{AF0740B9-BC77-468C-B51C-709DE10DF291} = {3E850CBC-D1EA-49FC-91C2-E73EEDB8BE74}
+		{E26FDD82-CB8A-4873-B27B-BCA4D56BE993} = {489A141D-54F3-45FC-AECF-031A541B1985}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {242CE588-5041-4BE2-9E6C-06601B602235}
