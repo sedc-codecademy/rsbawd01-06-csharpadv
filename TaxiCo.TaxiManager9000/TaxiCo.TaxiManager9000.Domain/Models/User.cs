@@ -1,7 +1,14 @@
-﻿namespace TaxiManager.Domain
+﻿namespace TaxiManager9000.Domain
 {
     public class User : BaseEntity
     {
+        public User() { }
+        public User(string username, string password, Role role)
+        {
+            Username = username;
+            Password = password;
+            Role = role;
+        }
         private string _username;
         public string Username
         {
@@ -10,14 +17,6 @@
         }
         public string Password { get; set; }
         public Role Role { get; set; }
-
-        public User() { }
-        public User(string username, string password, Role role)
-        {
-            Username = username;
-            Password = password;
-            Role = role;
-        }
 
         public override string Print()
         {

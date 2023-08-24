@@ -1,5 +1,4 @@
-﻿using TaxiManager.Domain;
-namespace TaxiManager
+﻿namespace GoodPractices
 {
     internal class Program
     {

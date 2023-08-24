@@ -1,4 +1,4 @@
-﻿namespace TaxiManager.Domain
+﻿namespace TaxiManager9000.Domain
 {
     public enum Shift
     {

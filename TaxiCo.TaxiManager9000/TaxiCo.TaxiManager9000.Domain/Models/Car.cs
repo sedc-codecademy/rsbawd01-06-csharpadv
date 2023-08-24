@@ -1,12 +1,7 @@
-﻿namespace TaxiManager.Domain
+﻿namespace TaxiManager9000.Domain
 {
     public class Car : BaseEntity
     {
-        public string Model { get; set; }
-        public string LicensePlate { get; set; }
-        public DateTime LicensePlateExpieryDate { get; set; }
-        public List<Driver> DriversAssigned { get; set; }
-
         public Car() { }
         public Car(string model, string licensePlate, DateTime experyDate)
         {
@@ -15,6 +10,10 @@
             LicensePlateExpieryDate = experyDate;
             DriversAssigned = new List<Driver>();
         }
+        public string Model { get; set; }
+        public string LicensePlate { get; set; }
+        public DateTime LicensePlateExpieryDate { get; set; }
+        public List<Driver> DriversAssigned { get; set; }
 
         public override string Print()
         {
